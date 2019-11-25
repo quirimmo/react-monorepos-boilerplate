@@ -14,5 +14,9 @@
   "license": "MIT",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "component-library": "file:packages\\component-library",
+    "shared-config": "file:packages\\shared-config"
+  }
 }
