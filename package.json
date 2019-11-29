@@ -13,7 +13,7 @@
   "author": "quirimmo <quirimmo@gmail.com>",
   "license": "MIT",
   "workspaces": [
-    "packages/**"
+    "packages/*"
   ],
   "dependencies": {
     "component-library": "file:packages\\component-library",

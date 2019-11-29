@@ -21,7 +21,8 @@
   },
   "scripts": {
     "start": "node lib/shared-config.js",
-    "build": "rollup --config"
+    "build": "rollup --config",
+    "preversion": "echo \"PREVERSIONING!!!!\""
   },
   "bugs": {
     "url": "https://github.com/quirimmo/react-monorepos-boilerplate/issues"
