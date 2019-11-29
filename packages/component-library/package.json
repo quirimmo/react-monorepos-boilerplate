@@ -21,9 +21,12 @@
     "url": "git+https://github.com/quirimmo/react-monorepos-boilerplate.git"
   },
   "scripts": {
-    "start": "echo \"Hello World From Component Library\""
+    "start": "node \"./lib/component-library.js\""
   },
   "bugs": {
     "url": "https://github.com/quirimmo/react-monorepos-boilerplate/issues"
+  },
+  "devDependencies": {
+    "shared-config": "^1.0.2"
   }
 }

@@ -1,7 +1,11 @@
 'use strict';
 
-module.exports = sharedConfig;
+const PRETTIER_CONFIG = require('./prettier.config');
 
-function sharedConfig() {
-    // TODO
-}
+const SHARED_CONFIG = {
+  PRETTIER_CONFIG
+};
+
+module.exports = {
+  PRETTIER_CONFIG
+};

@@ -21,9 +21,16 @@
     "url": "git+https://quirimmo@github.com/quirimmo/react-monorepos-boilerplate.git"
   },
   "scripts": {
-    "start": "echo \"Hello from shared config\""
+    "start": "node lib/shared-config.js",
+    "build": "rollup --config"
   },
   "bugs": {
     "url": "https://github.com/quirimmo/react-monorepos-boilerplate/issues"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.5",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-progress": "^1.1.1",
+    "rollup-plugin-terser": "^5.1.2"
   }
 }
