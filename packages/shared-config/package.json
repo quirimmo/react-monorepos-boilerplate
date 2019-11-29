@@ -7,8 +7,7 @@
   "license": "MIT",
   "main": "lib/shared-config.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "lib"
