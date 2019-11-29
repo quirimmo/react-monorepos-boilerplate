@@ -1,6 +1,6 @@
 {
   "name": "component-library",
-  "version": "1.0.1",
+  "version": "1.0.2-alpha.0",
   "description": "> TODO: description",
   "author": "quirimmo <quirimmo@gmail.com>",
   "homepage": "https://github.com/quirimmo/react-monorepos-boilerplate#readme",
@@ -27,6 +27,6 @@
     "url": "https://github.com/quirimmo/react-monorepos-boilerplate/issues"
   },
   "devDependencies": {
-    "shared-config": "^1.0.2"
+    "shared-config": "^1.0.3"
   }
 }
