@@ -1,6 +1,6 @@
 {
   "packages": [
-    "packages/shared-config"
+    "packages/*"
   ],
   "version": "independent",
   "npmClient": "yarn",
