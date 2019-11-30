@@ -1,6 +1,6 @@
 {
   "name": "component-library",
-  "version": "1.0.2-alpha.0",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "quirimmo <quirimmo@gmail.com>",
   "homepage": "https://github.com/quirimmo/react-monorepos-boilerplate#readme",
@@ -46,7 +46,7 @@
     "babel-loader": "^8.0.6",
     "jest": "^24.9.0",
     "react-docgen-typescript-loader": "^3.6.0",
-    "shared-config": "^1.0.3",
+    "shared-config": "^1.0.4",
     "terser-webpack-plugin": "^2.2.1",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.2",

@@ -1,13 +1,13 @@
 {
   "name": "main-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.23",
     "@types/node": "12.12.14",
     "@types/react": "16.9.13",
     "@types/react-dom": "16.9.4",
-    "component-library": "^1.0.2-alpha.0",
+    "component-library": "^1.0.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
@@ -35,6 +35,6 @@
     ]
   },
   "devDependencies": {
-    "shared-config": "^1.0.3"
+    "shared-config": "^1.0.4"
   }
 }
