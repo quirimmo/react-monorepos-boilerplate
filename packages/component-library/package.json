@@ -22,13 +22,20 @@
   },
   "scripts": {
     "start": "node \"./lib/component-library.js\"",
-    "storybook": "start-storybook --debug-webpack"
+    "storybook": "start-storybook --debug-webpack",
+    "build": "webpack --config webpack.config.js"
   },
   "bugs": {
     "url": "https://github.com/quirimmo/react-monorepos-boilerplate/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-export-default-from": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
     "@storybook/addon-info": "^5.2.6",
     "@storybook/react": "^5.2.6",
     "@types/jest": "^24.0.23",
@@ -40,8 +47,11 @@
     "jest": "^24.9.0",
     "react-docgen-typescript-loader": "^3.6.0",
     "shared-config": "^1.0.3",
+    "terser-webpack-plugin": "^2.2.1",
     "ts-jest": "^24.2.0",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
     "react": "^16.12.0",
