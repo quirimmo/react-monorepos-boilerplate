@@ -8,14 +8,24 @@
     "yarn": "^1.19.2"
   },
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/quirimmo/react-monorepos-boilerplate.git",
-  "author": "quirimmo <quirimmo@gmail.com>",
+  "author": {
+    "email": "quirimmo@gmail.com",
+    "name": "Quirino Lo Russo"
+  },
   "license": "MIT",
-  "workspaces": [
-    "packages/**"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/webpack-dev-server",
+      "**/babel-loader",
+      "**/babel-jest"
+    ]
+  },
   "dependencies": {
+    "main-app": "file:packages\\main-app",
     "component-library": "file:packages\\component-library",
     "shared-config": "file:packages\\shared-config"
   }
