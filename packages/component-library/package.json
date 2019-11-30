@@ -21,12 +21,30 @@
     "url": "git+https://github.com/quirimmo/react-monorepos-boilerplate.git"
   },
   "scripts": {
-    "start": "node \"./lib/component-library.js\""
+    "start": "node \"./lib/component-library.js\"",
+    "storybook": "start-storybook --debug-webpack"
   },
   "bugs": {
     "url": "https://github.com/quirimmo/react-monorepos-boilerplate/issues"
   },
   "devDependencies": {
-    "shared-config": "^1.0.3"
+    "@babel/core": "^7.7.4",
+    "@storybook/addon-info": "^5.2.6",
+    "@storybook/react": "^5.2.6",
+    "@types/jest": "^24.0.23",
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "@types/storybook__addon-info": "^5.2.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
+    "react-docgen-typescript-loader": "^3.6.0",
+    "shared-config": "^1.0.3",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
