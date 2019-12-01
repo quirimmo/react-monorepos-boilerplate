@@ -11,7 +11,6 @@
       "es2017",
       "dom"
     ],
-    "sourceMap": true,
     "allowJs": false,
     "jsx": "react",
     "moduleResolution": "node",
@@ -22,11 +21,12 @@
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
-    "declaration": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": true,
   },
   "include": [
     "lib/**/*"

@@ -18,11 +18,7 @@
     "packages": [
       "packages/*"
     ],
-    "nohoist": [
-      "**/webpack-dev-server",
-      "**/babel-loader",
-      "**/babel-jest"
-    ]
+    "nohoist": []
   },
   "dependencies": {
     "main-app": "file:packages\\main-app",

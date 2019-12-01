@@ -5,8 +5,11 @@ module.exports = {
   mode: 'production',
   entry: './lib/index.ts',
   output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist')
+    filename: '[name].js',
+    path: path.resolve(__dirname, 'dist'),
+    libraryTarget: 'umd',
+    library: 'component-library',
+    umdNamedDefine: true
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx']
