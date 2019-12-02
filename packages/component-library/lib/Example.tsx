@@ -1,11 +1,11 @@
-import React, { ReactNode, useState } from 'react';
+import React, { ReactNode, useState, FC, ReactElement } from 'react';
 
 export interface ExampleProps {
   text: string;
   content: ReactNode;
 }
 
-export function Example({ content, text }: ExampleProps) {
+export const Example: FC<ExampleProps> = ({ content, text }: ExampleProps): ReactElement => {
   const [counter, setCounter] = useState(0);
 
   const handleClick = () => setCounter((prevCounter: number): number => prevCounter + 1);
@@ -17,4 +17,4 @@ export function Example({ content, text }: ExampleProps) {
       <p>You clicked {counter} times!</p>
     </div>
   );
-}
+};

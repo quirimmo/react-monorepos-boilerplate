@@ -7,11 +7,6 @@
   "license": "MIT",
   "main": "dist/component-library.js",
   "types": "dist/",
-  "directories": {
-    "dist": "dist",
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
     "dist"
   ],

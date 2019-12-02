@@ -11,8 +11,8 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js',
     libraryTarget: 'umd',
-    // library: 'component-library',
-    // umdNamedDefine: true
+    library: 'component-library',
+    umdNamedDefine: true
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx']
