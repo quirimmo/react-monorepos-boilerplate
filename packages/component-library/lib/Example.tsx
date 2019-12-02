@@ -15,6 +15,8 @@ export const Example: FC<ExampleProps> = ({ content, text }: ExampleProps): Reac
       <button onClick={handleClick}>Increment Counter</button>
       <br />
       <p>You clicked {counter} times!</p>
+      <div>Content: {content}</div>
+      <div>Text: {text}</div>
     </div>
   );
 };

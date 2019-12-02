@@ -14,10 +14,9 @@ const App: React.FC = () => {
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
-      </header>
-      <div>
+        <br />
         <Example content="dsadsa" text="sdadsa" />
-      </div>
+      </header>
     </div>
   );
 };

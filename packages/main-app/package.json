@@ -2,6 +2,13 @@
   "name": "main-app",
   "version": "1.0.7",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open"
+  },
   "dependencies": {
     "@types/jest": "24.0.23",
     "@types/node": "12.12.14",
@@ -12,12 +19,6 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
     "typescript": "3.7.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cypress": "^3.7.0"
   }
 }
