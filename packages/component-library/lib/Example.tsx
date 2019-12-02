@@ -8,7 +8,7 @@ export interface ExampleProps {
 export function Example({ content, text }: ExampleProps) {
   const [counter, setCounter] = useState(0);
 
-  const handleClick = () => setCounter(counter => counter + 1);
+  const handleClick = () => setCounter((prevCounter: number): number => prevCounter + 1);
 
   return (
     <div>
