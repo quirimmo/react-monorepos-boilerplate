@@ -8,11 +8,11 @@ module.exports = {
     'component-library': './lib/index.ts'
   },
   output: {
+    path: path.join(__dirname, 'dist'),
     filename: '[name].js',
-    path: path.resolve(__dirname, 'dist'),
     libraryTarget: 'umd',
-    library: 'component-library',
-    umdNamedDefine: true
+    // library: 'component-library',
+    // umdNamedDefine: true
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx']
@@ -21,13 +21,13 @@ module.exports = {
   module: {
     rules: [
       // we use babel-loader to load our jsx and tsx files
-      {
-        test: /\.(ts|js)x?$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader'
-        }
-      },
+      // {
+      //   test: /\.(ts|js)x?$/,
+      //   exclude: /node_modules/,
+      //   use: {
+      //     loader: 'babel-loader'
+      //   }
+      // },
       {
         test: /\.tsx?$/,
         use: {

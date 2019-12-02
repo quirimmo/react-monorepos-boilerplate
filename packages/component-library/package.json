@@ -6,17 +6,14 @@
   "homepage": "https://github.com/quirimmo/react-monorepos-boilerplate#readme",
   "license": "MIT",
   "main": "dist/component-library.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/",
   "directories": {
     "dist": "dist",
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "dist/**/*",
-    "README.md",
-    "*.js",
-    "*.d.ts"
+    "dist"
   ],
   "publishConfig": {
     "registry": "https://registry.yarnpkg.com"
