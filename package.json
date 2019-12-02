@@ -18,11 +18,9 @@
     "packages": [
       "packages/*"
     ],
-    "nohoist": []
-  },
-  "dependencies": {
-    "main-app": "file:packages\\main-app",
-    "component-library": "file:packages\\component-library",
-    "shared-config": "file:packages\\shared-config"
+    "nohoist": [
+      "**/react-scripts",
+      "**/react-scripts/**"
+    ]
   }
 }
