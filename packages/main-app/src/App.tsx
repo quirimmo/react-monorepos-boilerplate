@@ -16,7 +16,7 @@ const App: React.FC = () => {
         </a>
       </header>
       <div>
-        <Example />
+        <Example content="dsadsa" text="sdadsa" />
       </div>
     </div>
   );

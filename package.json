@@ -19,6 +19,8 @@
       "packages/*"
     ],
     "nohoist": [
+      "**/webpack",
+      "**/webpack/**",
       "**/react-scripts",
       "**/react-scripts/**"
     ]

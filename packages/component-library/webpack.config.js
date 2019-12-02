@@ -1,9 +1,12 @@
 const TerserPlugin = require('terser-webpack-plugin');
 const path = require('path');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   mode: 'production',
-  entry: './lib/index.ts',
+  entry: {
+    'component-library': './lib/index.ts'
+  },
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
@@ -31,11 +34,6 @@ module.exports = {
           loader: 'ts-loader'
         }
       }
-      // // css-loader to bundle all the css files into one file and style-loader to add all the styles  inside the style tag of the document
-      // {
-      //   test: /\.css$/,
-      //   use: ['style-loader', 'css-loader']
-      // }
     ]
   },
   optimization: {
@@ -50,5 +48,6 @@ module.exports = {
         extractComments: false
       })
     ]
-  }
+  },
+  plugins: [new CleanWebpackPlugin()]
 };
