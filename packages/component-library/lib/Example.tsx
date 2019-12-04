@@ -1,6 +1,7 @@
 import React, { ReactNode, useState, FC, ReactElement } from 'react';
 
 export interface ExampleProps {
+  /** aaaaaa */
   text: string;
   content: ReactNode;
 }
