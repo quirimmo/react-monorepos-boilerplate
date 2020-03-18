@@ -1,5 +1,5 @@
 {
-  "name": "shared-config",
+  "name": "@alpha/test-shared-config",
   "version": "3.0.0-alpha.0",
   "description": "> TODO: description",
   "author": "quirimmo <quirimmo@gmail.com>",
@@ -13,7 +13,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com"
+    "registry": "https://binrepo.cglcloud.in/api/npm/npm-virtual/",
+    "directory": "dist"
   },
   "repository": {
     "type": "git",

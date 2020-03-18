@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Example } from 'component-library';
+import { Example } from '@alpha/test-component-library';
 
 console.log('AB');
 
