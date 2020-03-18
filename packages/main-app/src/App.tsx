@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Example } from 'component-library';
 
+console.log('A');
+
 const App: React.FC = () => {
   return (
     <div className="App">

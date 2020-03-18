@@ -7,7 +7,7 @@ export default {
   output: {
     dir: 'dist',
     format: 'cjs',
-    exports: ['named'],
+    exports: 'named',
     sourcemap: true
   },
   plugins: [progress({ clearLine: false }), commonjs(), terser()]
