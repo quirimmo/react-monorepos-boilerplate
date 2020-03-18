@@ -15,7 +15,7 @@
 10 silly isBehindUpstream feature/test-setup is behind origin/feature/test-setup by 0 commit(s) and ahead by 0
 11 silly hasTags
 12 verbose hasTags true
-13 silly git-describe.sync "component-library@1.0.5-3-gbfbe2d3" => {"lastTagName":"component-library@1.0.5","lastVersion":"1.0.5","refCount":"3","sha":"bfbe2d3","isDirty":false}
+13 silly git-describe.sync "component-library@1.0.5-5-g1bccc29" => {"lastTagName":"component-library@1.0.5","lastVersion":"1.0.5","refCount":"5","sha":"1bccc29","isDirty":false}
 14 info Looking for changed packages since component-library@1.0.5
 15 silly checking diff packages/component-library
 16 silly found diff in packages/component-library/package.json
@@ -32,8 +32,8 @@
 22 silly no diff found in shared-config
 23 verbose updated component-library
 24 verbose updated main-app
-25 verbose git-describe undefined => "component-library@1.0.5-3-gbfbe2d3"
-26 silly git-describe parsed => {"lastTagName":"component-library@1.0.5","lastVersion":"1.0.5","refCount":"3","sha":"bfbe2d3","isDirty":false}
+25 verbose git-describe undefined => "component-library@1.0.5-5-g1bccc29"
+26 silly git-describe parsed => {"lastTagName":"component-library@1.0.5","lastVersion":"1.0.5","refCount":"5","sha":"1bccc29","isDirty":false}
 27 info execute Skipping releases
 28 silly lifecycle No script for "preversion" in "react-monorepos-boilerplate", continuing
 29 silly lifecycle No script for "preversion" in "component-library", continuing
@@ -47,19 +47,19 @@
 34 silly gitAdd ]
 35 silly gitCommit Publish
 35 silly gitCommit
-35 silly gitCommit  - component-library@1.0.6
-35 silly gitCommit  - main-app@1.0.3
+35 silly gitCommit  - component-library@1.0.8
+35 silly gitCommit  - main-app@1.0.4
 36 verbose git [
 36 verbose git   'commit',
 36 verbose git   '-F',
-36 verbose git   'C:\\Users\\q540391\\AppData\\Local\\Temp\\1\\18434a4c-5ffe-4eb8-a5ff-c4bb8ea2e700\\lerna-commit.txt'
+36 verbose git   'C:\\Users\\q540391\\AppData\\Local\\Temp\\1\\6f807674-ded0-4798-92a0-b00478573195\\lerna-commit.txt'
 36 verbose git ]
-37 silly gitTag component-library@1.0.6
-38 verbose git [ 'tag', 'component-library@1.0.6', '-m', 'component-library@1.0.6' ]
-39 silly gitTag main-app@1.0.3
-40 verbose git [ 'tag', 'main-app@1.0.3', '-m', 'main-app@1.0.3' ]
-41 error Error: Command failed: git tag component-library@1.0.6 -m component-library@1.0.6
-41 error fatal: tag 'component-library@1.0.6' already exists
+37 silly gitTag component-library@1.0.8
+38 verbose git [ 'tag', 'component-library@1.0.8', '-m', 'component-library@1.0.8' ]
+39 silly gitTag main-app@1.0.4
+40 verbose git [ 'tag', 'main-app@1.0.4', '-m', 'main-app@1.0.4' ]
+41 error Error: Command failed: git tag component-library@1.0.8 -m component-library@1.0.8
+41 error fatal: tag 'component-library@1.0.8' already exists
 41 error
 41 error     at makeError (C:\Development\react-monorepos-boilerplate\node_modules\execa\index.js:174:9)
 41 error     at C:\Development\react-monorepos-boilerplate\node_modules\execa\index.js:278:16
