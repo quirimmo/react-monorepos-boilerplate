@@ -4,54 +4,64 @@
 0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
 0 silly argv }
 1 notice cli v3.19.0
-2 verbose rootPath E:\Development\react-monorepos-boilerplate
+2 verbose rootPath C:\Development\react-monorepos-boilerplate
 3 info versioning independent
 4 silly isAnythingCommitted
 5 verbose isAnythingCommitted 1
 6 silly currentBranch
-7 verbose currentBranch master
+7 verbose currentBranch feature/test-setup
 8 silly remoteBranchExists
 9 silly isBehindUpstream
-10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
+10 silly isBehindUpstream feature/test-setup is behind origin/feature/test-setup by 0 commit(s) and ahead by 0
 11 silly hasTags
-12 verbose hasTags false
-13 info Assuming all packages changed
-14 verbose updated component-library
-15 verbose updated shared-config
-16 verbose git-describe undefined => "c8dbc6d"
-17 silly git-describe parsed => {"refCount":"4","sha":"c8dbc6d","isDirty":false}
-18 info execute Skipping releases
-19 silly lifecycle No script for "preversion" in "react-monorepos-boilerplate", continuing
-20 silly lifecycle No script for "preversion" in "component-library", continuing
-21 silly lifecycle No script for "preversion" in "shared-config", continuing
-22 silly lifecycle No script for "version" in "shared-config", continuing
-23 silly lifecycle No script for "version" in "component-library", continuing
-24 silly lifecycle No script for "version" in "react-monorepos-boilerplate", continuing
-25 silly gitAdd [
-25 silly gitAdd   'E:\\Development\\react-monorepos-boilerplate\\packages\\shared-config\\package.json',
-25 silly gitAdd   'E:\\Development\\react-monorepos-boilerplate\\packages\\component-library\\package.json'
-25 silly gitAdd ]
-26 silly gitCommit Publish
-26 silly gitCommit
-26 silly gitCommit  - component-library@1.0.1
-26 silly gitCommit  - shared-config@1.0.1
-27 verbose git [
-27 verbose git   'commit',
-27 verbose git   '-F',
-27 verbose git   'C:\\Users\\quiri\\AppData\\Local\\Temp\\83f98c2c-9d86-42e0-a120-61535aa3877d\\lerna-commit.txt'
-27 verbose git ]
-28 silly gitTag component-library@1.0.1
-29 verbose git [ 'tag', 'component-library@1.0.1', '-m', 'component-library@1.0.1' ]
-30 silly gitTag shared-config@1.0.1
-31 verbose git [ 'tag', 'shared-config@1.0.1', '-m', 'shared-config@1.0.1' ]
-32 silly lifecycle No script for "postversion" in "component-library", continuing
-33 silly lifecycle No script for "postversion" in "shared-config", continuing
-34 silly lifecycle No script for "postversion" in "react-monorepos-boilerplate", continuing
-35 info git Pushing tags...
-36 silly gitPush origin master
-37 error Error: Command failed: git push --follow-tags --no-verify origin master
-37 error remote: Permission to quirimmo/react-monorepos-boilerplate.git denied to trafalgarlow.
-37 error fatal: unable to access 'https://github.com/quirimmo/react-monorepos-boilerplate.git/': The requested URL returned error: 403
-37 error
-37 error     at makeError (E:\Development\react-monorepos-boilerplate\node_modules\execa\index.js:174:9)
-37 error     at E:\Development\react-monorepos-boilerplate\node_modules\execa\index.js:278:16
+12 verbose hasTags true
+13 silly git-describe.sync "component-library@1.0.5-3-gbfbe2d3" => {"lastTagName":"component-library@1.0.5","lastVersion":"1.0.5","refCount":"3","sha":"bfbe2d3","isDirty":false}
+14 info Looking for changed packages since component-library@1.0.5
+15 silly checking diff packages/component-library
+16 silly found diff in packages/component-library/package.json
+16 silly found diff in packages/component-library/webpack.config.js
+17 verbose filtered diff [
+17 verbose filtered diff   'packages/component-library/package.json',
+17 verbose filtered diff   'packages/component-library/webpack.config.js'
+17 verbose filtered diff ]
+18 silly checking diff packages/main-app
+19 silly found diff in packages/main-app/package.json
+19 silly found diff in packages/main-app/src/App.tsx
+20 verbose filtered diff [ 'packages/main-app/package.json', 'packages/main-app/src/App.tsx' ]
+21 silly checking diff packages/shared-config
+22 silly no diff found in shared-config
+23 verbose updated component-library
+24 verbose updated main-app
+25 verbose git-describe undefined => "component-library@1.0.5-3-gbfbe2d3"
+26 silly git-describe parsed => {"lastTagName":"component-library@1.0.5","lastVersion":"1.0.5","refCount":"3","sha":"bfbe2d3","isDirty":false}
+27 info execute Skipping releases
+28 silly lifecycle No script for "preversion" in "react-monorepos-boilerplate", continuing
+29 silly lifecycle No script for "preversion" in "component-library", continuing
+30 silly lifecycle No script for "version" in "component-library", continuing
+31 silly lifecycle No script for "preversion" in "main-app", continuing
+32 silly lifecycle No script for "version" in "main-app", continuing
+33 silly lifecycle No script for "version" in "react-monorepos-boilerplate", continuing
+34 silly gitAdd [
+34 silly gitAdd   'C:\\Development\\react-monorepos-boilerplate\\packages\\component-library\\package.json',
+34 silly gitAdd   'C:\\Development\\react-monorepos-boilerplate\\packages\\main-app\\package.json'
+34 silly gitAdd ]
+35 silly gitCommit Publish
+35 silly gitCommit
+35 silly gitCommit  - component-library@1.0.6
+35 silly gitCommit  - main-app@1.0.3
+36 verbose git [
+36 verbose git   'commit',
+36 verbose git   '-F',
+36 verbose git   'C:\\Users\\q540391\\AppData\\Local\\Temp\\1\\18434a4c-5ffe-4eb8-a5ff-c4bb8ea2e700\\lerna-commit.txt'
+36 verbose git ]
+37 silly gitTag component-library@1.0.6
+38 verbose git [ 'tag', 'component-library@1.0.6', '-m', 'component-library@1.0.6' ]
+39 silly gitTag main-app@1.0.3
+40 verbose git [ 'tag', 'main-app@1.0.3', '-m', 'main-app@1.0.3' ]
+41 error Error: Command failed: git tag component-library@1.0.6 -m component-library@1.0.6
+41 error fatal: tag 'component-library@1.0.6' already exists
+41 error
+41 error     at makeError (C:\Development\react-monorepos-boilerplate\node_modules\execa\index.js:174:9)
+41 error     at C:\Development\react-monorepos-boilerplate\node_modules\execa\index.js:278:16
+41 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+41 error     at async Promise.all (index 0)
