@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Example } from 'component-library';
 
-console.log('A');
+console.log('AB');
 
 const App: React.FC = () => {
   return (

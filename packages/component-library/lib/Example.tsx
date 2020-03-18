@@ -5,6 +5,8 @@ export interface ExampleProps {
   content: ReactNode;
 }
 
+console.log('EXAMPLEA');
+
 export function Example({ content, text }: ExampleProps) {
   const [counter, setCounter] = useState(0);
 
